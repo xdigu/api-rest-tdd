@@ -11,4 +11,4 @@ node_modules/
 .DS_Store
 
 # Coverage test
-__tests__/Coverage/
+__tests__/coverage/
