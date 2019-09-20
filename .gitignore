@@ -1,0 +1,11 @@
+# Logs
+*.log
+
+# DB teste
+*.sqlite
+
+# Dependency directories
+node_modules/
+
+# Mac OS
+.DS_Store
