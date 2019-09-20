@@ -9,3 +9,6 @@ node_modules/
 
 # Mac OS
 .DS_Store
+
+# Coverage test
+__tests__/Coverage/*
