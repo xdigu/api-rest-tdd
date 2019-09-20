@@ -97,7 +97,7 @@ class UserController {
             });
         }
 
-        if (!data.name && data.email.trim() === '') {
+        if (data.email && data.email.trim() === '') {
             return res.status(400).json({
                 success: false,
                 message: 'Email can not be blank'
