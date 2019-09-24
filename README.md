@@ -1,6 +1,15 @@
 # API REST TDD
 
-I have created this repo to studie and pratice how to apply TDD metodology (test driven development), it was my fist time that I do something with TDD also my first time with ORM and sequelize so if I made some mistake forget me.
+I have created this repo to study and practice how to apply TDD metodology (test driven development), it was my first time doing something with TDD also my first time with ORM and sequelize so if I made some mistake forgive me.
+
+This API is a User CRUD:
+```
+GET '/user' //List all
+POST '/user' // Create
+GET '/user/:id' //Find
+PUT '/user/:id' //Edit
+DELETE '/user/:id' //Delete
+```
 
 ## Tech
 
@@ -44,7 +53,7 @@ Tests was created with [Jest](https://github.com/facebook/jest), every test is i
 
 All tests run with a sqlite database, it's configured in `.env.test` file if you want to run in another environment you can set there.
 
-To run test first is executed a pre script that create database in sqlite with the migrations that is insite `src/dabase/migrations` and after all tests is run a post script that undo all migrations.
+To run test first is executed a pre script that create database in sqlite with the migrations that is inside `src/dabase/migrations` and after all tests is run a post script that undo all migrations.
 
 To run all tests just run:
 
@@ -58,11 +67,11 @@ or
 $ yarn test
 ```
 
-If you are using windows I sugest to install [win-node-env](https://github.com/laggingreflex/win-node-env) to load dotEnv archives.
+If you are using windows I sugest to install [win-node-env](https://github.com/laggingreflex/win-node-env) to load dotEnv files.
 
 ## Runing API
 
-Fist you need to configure `.env` file with you database config.
+First you need to configure `.env` file with you database config.
 
 To run api:
 
